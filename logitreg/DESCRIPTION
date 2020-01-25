@@ -1,0 +1,19 @@
+Package: logitreg
+Title: Logistic Regression
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Arber",
+           family = "Qoku",
+           role = c("aut", "cre"),
+           email = "arber.qoku@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Computation of a logistic regression model with a binary response variable.
+Imports:  
+    checkmate, ROCR
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
